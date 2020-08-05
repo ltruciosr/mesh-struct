@@ -1,0 +1,32 @@
+# Compiled source #
+###################
+**/build
+**/bin
+**/.vscode
+lib/PoissonRecon
+
+# Not-required data #
+#####################
+**/data_test
+**/data_val
+**/data
+
+# Packages #
+############
+# it's better to unpack these files and commit the raw source
+# git has its own built in compression methods
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Logs, databases and pdf's#
+######################
+*.log
+*.sql
+*.sqlite
+*.pdf
